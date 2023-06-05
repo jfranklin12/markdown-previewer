@@ -1,11 +1,21 @@
 import './App.css';
+import React, { useState } from 'react';
+import Editor from './Editor';
+import Preview from './Preview';
 
-function App() {
+const App = () => {
+  const [markdown, setMarkdown] = useState('');
+
+  const handleInputChange = (event) => {
+    setMarkdown(event.target.value);
+  };
+
   return (
-    <div className="App">
-      
+    <div>
+      <Editor value={markdown} onChange={handleInputChange} />
+      <Preview value={markdown} />
     </div>
   );
-}
+};
 
 export default App;
