@@ -1,3 +1,11 @@
+/* main css */
+html, body {
+  background-color: #27187E;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
 /* Container */
 .container {
   display: flex;
@@ -7,3 +15,14 @@
   gap: 2rem;
 }
 
+/* Editor styles */
+#editor {
+  width: 100%;
+  height: 20rem;
+  padding: 1rem;
+  background-color: #AEB8FE;
+  color: #27187E;
+  font-size: 1rem;
+  border: 4px solid #F1F2F6;
+  border-radius: 0.5rem;
+}
