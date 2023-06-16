@@ -58,7 +58,7 @@ And here. | Okay. | I think we get it.
   };
 
   return (
-    <div>
+    <div className="container">
       <Editor value={markdown} onChange={handleInputChange} />
       <Preview value={markdown} />
     </div>
