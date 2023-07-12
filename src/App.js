@@ -5,9 +5,10 @@ import Preview from './Preview';
 
 const App = () => {
   const defaultMarkdown = `
-# Welcome to my React Markdown Previewer!
-## I'm glad you're here!
-### We can do some really neat stuff!
+# Welcome to my React Markdown Previewer
+## I'm glad you're here
+### We can do some really neat stuff
+#### Like add a link!
 [Here's another website I built](https://jfranklin12.github.io/random-quote-machine/)
 
 You can even write some code \`<div></div>\` using backticks.

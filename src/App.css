@@ -2,14 +2,14 @@
 html, body {
   background-color: #27187E;
   font-family: 'Merriweather Sans', sans-serif;
-  line-height: 1.6rem;
+  line-height: 1.6em;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
-  line-height: 2.5rem;
+  line-height: 2.1em;
 }
 
+/* base link style */
 a {
   background-color: #27187E;
   color: #F1F2F6;
@@ -18,25 +18,30 @@ a {
   border-radius: .4em;
   text-decoration: none;
 }
-
 a:hover, a:active {
   background-color: #3e2d9c;
 }
 
-
 /* code block */
 pre {
   background-color: #758BFD;
-  padding: 1rem;
-  border-radius: 0.4rem;
-  line-height: 1.5rem;
+  padding: 1em;
+  border-radius: 0.4em;
+  line-height: 1.5em;
   margin: 1em;
 }
-
 code {
   background-color: #F1F2F6;
-  padding: 0.2rem 1rem;
-  border-radius: 0.2rem;
+  padding: 0.2em 1em;
+  border-radius: 0.2em;
+}
+
+/* blockquote */
+blockquote {
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #F1F2F6;
+  border-left: .5em solid #758BFD;
 }
 
 /* Container */
@@ -47,6 +52,8 @@ code {
   padding: 2rem;
   gap: 2rem;
 }
+
+/* End Main CSS */
 
 /* Editor and Preview Styles */
 #editor, #preview {
