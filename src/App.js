@@ -15,11 +15,10 @@ You can even write some code \`<div></div>\` using backticks.
 One line isn't enough? Make a code block!
 
 \`\`\`
-// Code block
-
-function greet(name) {
-  console.log("Hello, " + name);
-}
+ // Code block 
+ function greet(name) { 
+   console.log("Hello, " + name); 
+ }
 \`\`\`
 
 Lots to do today? Let's make a list.

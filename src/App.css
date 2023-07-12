@@ -2,10 +2,43 @@
 html, body {
   background-color: #27187E;
   font-family: 'Merriweather Sans', sans-serif;
+  line-height: 1.6rem;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
+  line-height: 2.5rem;
 }
+
+a {
+  background-color: #27187E;
+  color: #F1F2F6;
+  line-height: 3.5em;
+  padding: .75em;
+  border-radius: .4em;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: #3e2d9c;
+}
+
+
+/* code block */
+pre {
+  background-color: #758BFD;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  line-height: 1.5rem;
+  margin: 1em;
+}
+
+code {
+  background-color: #F1F2F6;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+}
+
 /* Container */
 .container {
   display: flex;
@@ -18,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Editor and Preview Styles */
 #editor, #preview {
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
   color: #27187E;
   border-radius: 0.5rem;
 }
