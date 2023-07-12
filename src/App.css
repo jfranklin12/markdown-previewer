@@ -2,20 +2,20 @@
 html, body {
   background-color: #27187E;
   font-family: 'Merriweather Sans', sans-serif;
-  line-height: 1.6em;
+  line-height: 1.6rem;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
-  line-height: 2.1em;
+  line-height: 2.1rem;
 }
 
 /* base link style */
 a {
   background-color: #27187E;
   color: #F1F2F6;
-  line-height: 3.5em;
-  padding: .75em;
-  border-radius: .4em;
+  line-height: 3.5rem;
+  padding: .75rem;
+  border-radius: .4rem;
   text-decoration: none;
 }
 a:hover, a:active {
@@ -25,23 +25,27 @@ a:hover, a:active {
 /* code block */
 pre {
   background-color: #758BFD;
-  padding: 1em;
-  border-radius: 0.4em;
-  line-height: 1.5em;
-  margin: 1em;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  line-height: 1.5rem;
+  margin: 1rem;
 }
 code {
   background-color: #F1F2F6;
-  padding: 0.2em 1em;
-  border-radius: 0.2em;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
 }
 
 /* blockquote */
 blockquote {
-  margin: 1em 0;
-  padding: 1em;
+  margin: 1rem 0;
+  padding: 1rem;
   background-color: #F1F2F6;
-  border-left: .5em solid #758BFD;
+  border-left: .5rem solid #758BFD;
+}
+
+img {
+  margin: 1rem 0;
 }
 
 /* Container */
@@ -49,8 +53,8 @@ blockquote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 2rem;
-  gap: 2rem;
+  padding: 3rem;
+  gap: 3rem;
 }
 
 /* End Main CSS */

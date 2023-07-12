@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Editor from './Editor';
 import Preview from './Preview';
 
+
 const App = () => {
   const defaultMarkdown = `
 # Welcome to my React Markdown Previewer
@@ -36,12 +37,11 @@ Maybe you need some order?
 
 > Blockquote
 
-![Image](#)
+![The Grand Canyon](https://b2052345.smushcdn.com/2052345/wp-content/uploads/2021/04/received_2882319192052842-750x450.jpeg?lossy=1&strip=1&webp=1)
+<br></br> Visit **The Grand Canyon** for the most _beautiful_ **_sunsets!_** 
 
-We can make text **bold** text or _italic_ or **_both!_** 
 
-
-Maybe making a table is more your speed:
+Maybe you want to make a table:
 
 Wild Header | Crazy Header | Another Header?
 ------------ | ------------- | -------------
