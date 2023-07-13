@@ -48,6 +48,20 @@ img {
   margin: 1rem 0;
 }
 
+table {
+  max-width: 100%;
+  min-width: 60%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: .3rem;
+  text-align: left;
+  border: .1rem solid #27187E;
+}
+th {
+  background-color: #758BFD;
+}
+
 /* Container */
 .container {
   display: flex;

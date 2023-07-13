@@ -43,10 +43,11 @@ Maybe you need some order?
 
 Maybe you want to make a table:
 
-Wild Header | Crazy Header | Another Header?
+The Grand Canyon | Sequoia | Joshua Tree
 ------------ | ------------- | -------------
-Your content can | be here, and it | can be here....
-And here. | Okay. | I think we get it.
+Arizona | California | California
+Deep Canyons | Giant Sequoia Trees | Desert
+
 
 `;
 
