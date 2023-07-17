@@ -8,7 +8,7 @@
 
   [For more information on this project, click here!](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-markdown-previewer)
 
-  [My Markdown Previewer](#)
+  [My Markdown Previewer](https://jfranklin12.github.io/markdown-previewer/)
 
   ![Website Screenshot](/src/images/website.jpg)
 
